@@ -4,7 +4,7 @@
 
 ## 1. What is ntec?
 
-ntec is short for '**N**ame **T**o **E**thnicity **C**lassification' and is a Python-based framework for ethnicity classification based on peoples' names. It was first introduced and used in my paper [Moving On - Investigating Inventors' Ethnic Origins Using Supervised learning](https://academic.oup.com/joeg/advance-article/doi/10.1093/jeg/lbad001/7010698?utm_source=authortollfreelink&utm_campaign=joeg&utm_medium=email&guestAccessKey=431e97d4-c455-49ab-9019-d622f648c6d5), where you can find methodological details of the main classifier and its training data. In short, ntec builds on a trained artificial neural network that uses a name's letters to predict its ethnic origin.
+ntec is short for '**N**ame **T**o **E**thnicity **C**lassification' and is a Python-based framework for ethnicity classification based on peoples' names. It was first introduced and used in my paper [Moving On - Investigating Inventors' Ethnic Origins Using Supervised learning](https://academic.oup.com/joeg/advance-article/doi/10.1093/jeg/lbad001/7010698?utm_source=authortollfreelink&utm_campaign=joeg&utm_medium=email&guestAccessKey=431e97d4-c455-49ab-9019-d622f648c6d5), where you can find methodological details of the main classifier and its training data (an ungated previous version of the article is available on [arxiv](https://arxiv.org/abs/2201.00578)). In short, ntec builds on a trained artificial neural network that uses a name's letters to predict its ethnic origin.
 
 ## 2. Installation
 
