@@ -1,0 +1,4 @@
+include README.md
+graft ntec
+prune tests
+prune __pycache__

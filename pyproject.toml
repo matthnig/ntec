@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ntec"
+version = "0.1.0"
+description = "Ethnicity classification based on names."
+authors = [
+  {name = "Matthias Nigggli", email = "matthiasniggli@gmx.ch"}
+]
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+keywords = ["name classification", "ethnicity classification"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Natural Language :: English",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+  "Topic :: Text Processing",
+  "Topic :: Text Processing :: Linguistic"
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "unidecode"
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ntec"]
+exclude = ["ntec.__pycache__", "tests"]
+
+[tool.setuptools]
+include-package-data = true
+zip-safe = false
+
+[project.urls]
+"Homepage" = "https://github.com/matthnig/ntec"
+"Paper" = "https://academic.oup.com/joeg/advance-article/doi/10.1093/jeg/lbad001/7010698?utm_source=authortollfreelink&utm_campaign=joeg&utm_medium=email&guestAccessKey=431e97d4-c455-49ab-9019-d622f648c6d5"
